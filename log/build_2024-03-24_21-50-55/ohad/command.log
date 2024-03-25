@@ -1,0 +1,4 @@
+Invoking command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad -- -j4 -l4
+Invoked command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad -- -j4 -l4
+Invoking command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad
+Invoked command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad

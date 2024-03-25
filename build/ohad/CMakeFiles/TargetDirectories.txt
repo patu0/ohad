@@ -1,0 +1,9 @@
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/install/strip.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/install/local.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/install.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/list_install_components.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/rebuild_cache.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/edit_cache.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/test.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/ohad_uninstall.dir
+/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad/CMakeFiles/uninstall.dir

@@ -1,0 +1,123 @@
+[0.016s] Invoking command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad -- -j4 -l4
+[0.174s] Invoked command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad -- -j4 -l4
+[0.208s] Invoking command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad
+[0.217s] -- Install configuration: ""
+[0.218s] -- Execute custom install script
+[0.219s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/config/empty.yaml
+[0.224s] CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.224s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.224s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.224s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.224s] Call Stack (most recent call first):
+[0.224s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.224s]   cmake_install.cmake:41 (include)
+[0.224s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.224s] 
+[0.224s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/build/.built_by
+[0.225s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/build/COLCON_IGNORE
+[0.225s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/example_rw_car.urdf.xacro
+[0.226s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/inertial_macros.xacro
+[0.226s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/.colcon_install_layout
+[0.227s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/COLCON_IGNORE
+[0.227s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/_local_setup_util_ps1.py
+[0.227s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/_local_setup_util_sh.py
+[0.228s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.bash
+[0.228s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.ps1
+[0.228s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.sh
+[0.229s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.zsh
+[0.229s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.bash
+[0.229s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.ps1
+[0.229s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.sh
+[0.230s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.zsh
+[0.230s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/COLCON_IGNORE
+[0.231s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-27/events.log
+[0.231s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-27/logger_all.log
+[0.232s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-35/events.log
+[0.232s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-35/logger_all.log
+[0.232s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-46/events.log
+[0.232s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-46/logger_all.log
+[0.233s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-52-16/events.log
+[0.233s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-52-16/logger_all.log
+[0.233s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-53-04/events.log
+[0.234s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-53-04/logger_all.log
+[0.234s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-43/events.log
+[0.234s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-43/logger_all.log
+[0.235s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-50/events.log
+[0.235s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-50/logger_all.log
+[0.235s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-18/events.log
+[0.236s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-18/logger_all.log
+[0.236s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-41/events.log
+[0.236s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-41/logger_all.log
+[0.237s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest/events.log
+[0.237s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest/logger_all.log
+[0.237s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest_build/events.log
+[0.238s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest_build/logger_all.log
+[0.238s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robocar_core.xacro
+[0.238s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robocar_core_simple.xacro
+[0.238s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot.urdf.xacro
+[0.239s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot_core copy_2024_03_24_21_15.xacro
+[0.239s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot_core.xacro
+[0.241s] CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.241s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.241s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.241s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.241s] Call Stack (most recent call first):
+[0.242s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.242s]   cmake_install.cmake:41 (include)
+[0.242s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.242s] 
+[0.242s] -- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/__pycache__/rsp.launch.cpython-38.pyc
+[0.253s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/build/.built_by
+[0.253s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/build/COLCON_IGNORE
+[0.254s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/.colcon_install_layout
+[0.254s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/COLCON_IGNORE
+[0.254s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/_local_setup_util_ps1.py
+[0.255s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/_local_setup_util_sh.py
+[0.255s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.bash
+[0.255s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.ps1
+[0.256s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.sh
+[0.256s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.zsh
+[0.256s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.bash
+[0.257s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.ps1
+[0.257s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.sh
+[0.257s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.zsh
+[0.258s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/COLCON_IGNORE
+[0.258s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-14-39/events.log
+[0.258s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-14-39/logger_all.log
+[0.259s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-21-35/events.log
+[0.259s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-21-35/logger_all.log
+[0.260s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-32/events.log
+[0.260s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-32/logger_all.log
+[0.260s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-44/events.log
+[0.261s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-44/logger_all.log
+[0.261s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest/events.log
+[0.261s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest/logger_all.log
+[0.262s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest_build/events.log
+[0.262s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest_build/logger_all.log
+[0.262s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/rsp.launch.py
+[0.263s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/worlds/empty.world
+[0.264s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Chassis.STL
+[0.264s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Chassis.stl
+[0.264s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_left_shaft.STL
+[0.265s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_left_wheel.STL
+[0.265s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_right_shaft.STL
+[0.265s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_right_wheel.STL
+[0.265s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_left_wheel.STL
+[0.265s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_right_wheel.STL
+[0.266s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_shaft.STL
+[0.266s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/package_run_dependencies/ohad
+[0.267s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/parent_prefix_path/ohad
+[0.267s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/ament_prefix_path.sh
+[0.268s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/ament_prefix_path.dsv
+[0.268s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/path.sh
+[0.269s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/path.dsv
+[0.269s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.bash
+[0.269s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.sh
+[0.270s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.zsh
+[0.270s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.dsv
+[0.270s] -- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/package.dsv
+[0.280s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/packages/ohad
+[0.281s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/cmake/ohadConfig.cmake
+[0.281s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/cmake/ohadConfig-version.cmake
+[0.281s] -- Up-to-date symlink: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/package.xml
+[0.284s] Invoked command in '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad

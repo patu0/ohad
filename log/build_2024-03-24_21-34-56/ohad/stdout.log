@@ -1,0 +1,134 @@
+-- The C compiler identification is GNU 10.5.0
+-- The CXX compiler identification is GNU 10.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/config/empty.yaml
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/build/.built_by
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/build/COLCON_IGNORE
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/example_rw_car.urdf.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/inertial_macros.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/.colcon_install_layout
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/COLCON_IGNORE
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/_local_setup_util_ps1.py
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/_local_setup_util_sh.py
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.bash
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.ps1
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.zsh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.bash
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.ps1
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.zsh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/COLCON_IGNORE
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-27/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-27/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-35/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-35/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-46/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-46/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-52-16/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-52-16/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-53-04/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-53-04/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-43/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-43/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-50/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-50/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-18/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-18/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-41/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-41/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest_build/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest_build/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robocar_core.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robocar_core_simple.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot.urdf.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot_core copy_2024_03_24_21_15.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot_core.xacro
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/build/.built_by
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/build/COLCON_IGNORE
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/.colcon_install_layout
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/COLCON_IGNORE
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/_local_setup_util_ps1.py
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/_local_setup_util_sh.py
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.bash
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.ps1
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.zsh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.bash
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.ps1
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.zsh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/COLCON_IGNORE
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-14-39/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-14-39/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-21-35/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-21-35/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-32/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-32/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-44/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-44/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest_build/events.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest_build/logger_all.log
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/rsp.launch.py
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/worlds/empty.world
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Chassis.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Chassis.stl
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_left_shaft.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_left_wheel.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_right_shaft.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_right_wheel.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_left_wheel.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_right_wheel.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_shaft.STL
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/package_run_dependencies/ohad
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/parent_prefix_path/ohad
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/ament_prefix_path.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/path.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/path.dsv
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.bash
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.sh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.zsh
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.dsv
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/package.dsv
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/packages/ohad
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/cmake/ohadConfig.cmake
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/cmake/ohadConfig-version.cmake
+-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/package.xml

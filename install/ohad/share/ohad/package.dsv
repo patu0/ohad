@@ -1,0 +1,8 @@
+source;share/ohad/hook/cmake_prefix_path.ps1
+source;share/ohad/hook/cmake_prefix_path.dsv
+source;share/ohad/hook/cmake_prefix_path.sh
+source;share/ohad/local_setup.bash
+source;share/ohad/local_setup.dsv
+source;share/ohad/local_setup.ps1
+source;share/ohad/local_setup.sh
+source;share/ohad/local_setup.zsh

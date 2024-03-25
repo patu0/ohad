@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000934] (ohad) JobQueued: {'identifier': 'ohad', 'dependencies': OrderedDict()}
+[0.000982] (ohad) JobStarted: {'identifier': 'ohad'}
+[0.012693] (ohad) JobProgress: {'identifier': 'ohad', 'progress': 'cmake'}
+[0.013138] (ohad) Command: {'cmd': ['/usr/bin/cmake', '/home/pat/code/ohad_ros/dev_ws/src/ohad', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad'], 'cwd': '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pat'), ('SSH_AGENT_PID', '2418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pat'), ('OLDPWD', '/home/pat/code/ohad_ros/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2155'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pat'), ('JOURNAL_STREAM', '9:49536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pat/bin:/home/pat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/core:@/tmp/.ICE-unix/2453,unix/core:/tmp/.ICE-unix/2453'), ('INVOCATION_ID', 'f5719103ec484792a1f157f1499baf9b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66ab0e42_139d_4540_8ebc_d3db5b238e03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install/ohad:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install/ohad:/opt/ros/foxy')]), 'shell': False}
+[0.099759] (-) TimerEvent: {}
+[0.101502] (ohad) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.5.0\n'}
+[0.199890] (-) TimerEvent: {}
+[0.296361] (ohad) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.5.0\n'}
+[0.299977] (-) TimerEvent: {}
+[0.305874] (ohad) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400100] (-) TimerEvent: {}
+[0.467780] (ohad) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.468407] (ohad) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500196] (-) TimerEvent: {}
+[0.556189] (ohad) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.572528] (ohad) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.574019] (ohad) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.580765] (ohad) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600318] (-) TimerEvent: {}
+[0.691926] (ohad) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.692119] (ohad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700431] (-) TimerEvent: {}
+[0.800804] (-) TimerEvent: {}
+[0.810566] (ohad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.821588] (ohad) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.822139] (ohad) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.825477] (ohad) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.856383] (ohad) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.856608] (ohad) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900961] (-) TimerEvent: {}
+[1.001281] (-) TimerEvent: {}
+[1.077248] (ohad) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.101374] (-) TimerEvent: {}
+[1.110301] (ohad) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.201470] (-) TimerEvent: {}
+[1.213431] (ohad) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.231711] (ohad) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.231903] (ohad) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.231994] (ohad) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.247288] (ohad) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.247464] (ohad) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.249825] (ohad) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.253992] (ohad) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.256652] (ohad) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.273979] (ohad) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.274170] (ohad) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.276787] (ohad) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.279854] (ohad) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.282171] (ohad) StdoutLine: {'line': b'-- Generating done\n'}
+[1.283245] (ohad) StdoutLine: {'line': b'-- Build files have been written to: /home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad\n'}
+[1.286904] (ohad) CommandEnded: {'returncode': 0}
+[1.287819] (ohad) JobProgress: {'identifier': 'ohad', 'progress': 'build'}
+[1.290138] (ohad) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad', '--', '-j4', '-l4'], 'cwd': '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pat'), ('SSH_AGENT_PID', '2418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pat'), ('OLDPWD', '/home/pat/code/ohad_ros/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2155'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pat'), ('JOURNAL_STREAM', '9:49536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pat/bin:/home/pat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/core:@/tmp/.ICE-unix/2453,unix/core:/tmp/.ICE-unix/2453'), ('INVOCATION_ID', 'f5719103ec484792a1f157f1499baf9b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66ab0e42_139d_4540_8ebc_d3db5b238e03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install/ohad:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install/ohad:/opt/ros/foxy')]), 'shell': False}
+[1.301589] (-) TimerEvent: {}
+[1.343039] (ohad) CommandEnded: {'returncode': 0}
+[1.370839] (ohad) JobProgress: {'identifier': 'ohad', 'progress': 'install'}
+[1.384966] (ohad) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad'], 'cwd': '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pat'), ('SSH_AGENT_PID', '2418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pat'), ('OLDPWD', '/home/pat/code/ohad_ros/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2155'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pat'), ('JOURNAL_STREAM', '9:49536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pat/bin:/home/pat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/core:@/tmp/.ICE-unix/2453,unix/core:/tmp/.ICE-unix/2453'), ('INVOCATION_ID', 'f5719103ec484792a1f157f1499baf9b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66ab0e42_139d_4540_8ebc_d3db5b238e03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install/ohad:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pat/code/ohad_ros/dev_ws/src/ohad/build/ohad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pat/code/ohad_ros/dev_ws/install/ohad:/opt/ros/foxy')]), 'shell': False}
+[1.397559] (ohad) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.398203] (ohad) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.398940] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/config/empty.yaml\n'}
+[1.401697] (-) TimerEvent: {}
+[1.410196] (ohad) StderrLine: {'line': b'CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[1.410404] (ohad) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[1.410505] (ohad) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[1.410587] (ohad) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.410660] (ohad) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.410741] (ohad) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[1.410822] (ohad) StderrLine: {'line': b'  cmake_install.cmake:41 (include)\n'}
+[1.411647] (ohad) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.411776] (ohad) StderrLine: {'line': b'\n'}
+[1.411896] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/build/.built_by\n'}
+[1.421457] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/build/COLCON_IGNORE\n'}
+[1.433102] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/example_rw_car.urdf.xacro\n'}
+[1.444533] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/inertial_macros.xacro\n'}
+[1.456413] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/.colcon_install_layout\n'}
+[1.469231] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/COLCON_IGNORE\n'}
+[1.481131] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/_local_setup_util_ps1.py\n'}
+[1.491474] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/_local_setup_util_sh.py\n'}
+[1.501817] (-) TimerEvent: {}
+[1.503483] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.bash\n'}
+[1.515116] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.ps1\n'}
+[1.526593] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.sh\n'}
+[1.540412] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/local_setup.zsh\n'}
+[1.552535] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.bash\n'}
+[1.565770] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.ps1\n'}
+[1.578404] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.sh\n'}
+[1.590719] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/install/setup.zsh\n'}
+[1.601917] (-) TimerEvent: {}
+[1.604638] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/COLCON_IGNORE\n'}
+[1.617306] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-27/events.log\n'}
+[1.628030] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-27/logger_all.log\n'}
+[1.642662] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-35/events.log\n'}
+[1.654289] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-35/logger_all.log\n'}
+[1.667408] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-46/events.log\n'}
+[1.678992] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-51-46/logger_all.log\n'}
+[1.690170] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-52-16/events.log\n'}
+[1.702031] (-) TimerEvent: {}
+[1.702276] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-52-16/logger_all.log\n'}
+[1.713192] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-53-04/events.log\n'}
+[1.724517] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-53-04/logger_all.log\n'}
+[1.736896] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-43/events.log\n'}
+[1.751481] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-43/logger_all.log\n'}
+[1.765466] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-50/events.log\n'}
+[1.774669] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_20-55-50/logger_all.log\n'}
+[1.786168] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-18/events.log\n'}
+[1.800156] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-18/logger_all.log\n'}
+[1.802172] (-) TimerEvent: {}
+[1.810205] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-41/events.log\n'}
+[1.821720] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/build_2024-03-24_21-00-41/logger_all.log\n'}
+[1.833207] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest/events.log\n'}
+[1.844918] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest/logger_all.log\n'}
+[1.856900] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest_build/events.log\n'}
+[1.868578] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/log/latest_build/logger_all.log\n'}
+[1.880488] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robocar_core.xacro\n'}
+[1.890413] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robocar_core_simple.xacro\n'}
+[1.901227] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot.urdf.xacro\n'}
+[1.902288] (-) TimerEvent: {}
+[1.913055] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot_core copy_2024_03_24_21_15.xacro\n'}
+[1.923595] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/description/robot_core.xacro\n'}
+[1.935926] (ohad) StderrLine: {'line': b'CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[1.936187] (ohad) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[1.936269] (ohad) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[1.936353] (ohad) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.936425] (ohad) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.936494] (ohad) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[1.936562] (ohad) StderrLine: {'line': b'  cmake_install.cmake:41 (include)\n'}
+[1.936633] (ohad) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.936702] (ohad) StderrLine: {'line': b'\n'}
+[1.936770] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/build/.built_by\n'}
+[1.948402] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/build/COLCON_IGNORE\n'}
+[1.959839] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/.colcon_install_layout\n'}
+[1.970699] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/COLCON_IGNORE\n'}
+[1.982667] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/_local_setup_util_ps1.py\n'}
+[1.993124] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/_local_setup_util_sh.py\n'}
+[2.002390] (-) TimerEvent: {}
+[2.004656] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.bash\n'}
+[2.016010] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.ps1\n'}
+[2.026003] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.sh\n'}
+[2.036945] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/local_setup.zsh\n'}
+[2.048719] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.bash\n'}
+[2.059785] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.ps1\n'}
+[2.070645] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.sh\n'}
+[2.081930] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/install/setup.zsh\n'}
+[2.092804] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/COLCON_IGNORE\n'}
+[2.102538] (-) TimerEvent: {}
+[2.104750] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-14-39/events.log\n'}
+[2.115927] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-14-39/logger_all.log\n'}
+[2.126387] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-21-35/events.log\n'}
+[2.138196] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-21-35/logger_all.log\n'}
+[2.150074] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-32/events.log\n'}
+[2.161474] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-32/logger_all.log\n'}
+[2.173228] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-44/events.log\n'}
+[2.184144] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/build_2024-03-24_21-33-44/logger_all.log\n'}
+[2.195559] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest/events.log\n'}
+[2.202662] (-) TimerEvent: {}
+[2.207207] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest/logger_all.log\n'}
+[2.218830] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest_build/events.log\n'}
+[2.231975] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/log/latest_build/logger_all.log\n'}
+[2.242299] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/launch/rsp.launch.py\n'}
+[2.256095] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/worlds/empty.world\n'}
+[2.269053] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Chassis.STL\n'}
+[2.280646] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Chassis.stl\n'}
+[2.290953] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_left_shaft.STL\n'}
+[2.302755] (-) TimerEvent: {}
+[2.303112] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_left_wheel.STL\n'}
+[2.314157] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_right_shaft.STL\n'}
+[2.325087] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Front_right_wheel.STL\n'}
+[2.336693] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_left_wheel.STL\n'}
+[2.348017] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_right_wheel.STL\n'}
+[2.358757] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/meshes/Rear_shaft.STL\n'}
+[2.370711] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/package_run_dependencies/ohad\n'}
+[2.383340] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/parent_prefix_path/ohad\n'}
+[2.394908] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/ament_prefix_path.sh\n'}
+[2.402879] (-) TimerEvent: {}
+[2.408958] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/ament_prefix_path.dsv\n'}
+[2.419669] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/path.sh\n'}
+[2.431113] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/environment/path.dsv\n'}
+[2.442658] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.bash\n'}
+[2.454350] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.sh\n'}
+[2.465812] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.zsh\n'}
+[2.477177] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/local_setup.dsv\n'}
+[2.488288] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/package.dsv\n'}
+[2.499432] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ament_index/resource_index/packages/ohad\n'}
+[2.503004] (-) TimerEvent: {}
+[2.511323] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/cmake/ohadConfig.cmake\n'}
+[2.522698] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/cmake/ohadConfig-version.cmake\n'}
+[2.534078] (ohad) StdoutLine: {'line': b'-- Symlinking: /home/pat/code/ohad_ros/dev_ws/src/ohad/install/ohad/share/ohad/package.xml\n'}
+[2.547947] (ohad) CommandEnded: {'returncode': 0}
+[2.596544] (ohad) JobEnded: {'identifier': 'ohad', 'rc': 0}
+[2.597970] (-) EventReactorShutdown: {}

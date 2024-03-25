@@ -1,0 +1,4 @@
+source;share/ohad/local_setup.bash
+source;share/ohad/local_setup.dsv
+source;share/ohad/local_setup.sh
+source;share/ohad/local_setup.zsh
